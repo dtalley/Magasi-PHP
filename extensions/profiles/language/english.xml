@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<phrases>
+	
+	<profiles>
+		<title>User Profiles</title>
+    <update_avatar>
+      <file_too_big>The file you provided is too big.  The max file size is %1kB, and the file you provided is %2kB.</file_too_big>
+      <missing_file>You did not provide a file.</missing_file>
+      <success>Your avatar has been successfully updated.</success>
+    </update_avatar>
+    <update_profile>
+      <success>Your profile has been successfully updated.</success>
+    </update_profile>
+    <add_link>
+      <success>You have successfully added a social network link to your profile.</success>
+      <too_many>You may only have %1 social network links attached to your profile.</too_many>
+    </add_link>
+    <delete_link>
+      <success>You have successfully deleted a social network link from your profile.</success>
+    </delete_link>
+    <link_types>
+      <live>Windows Live</live>
+      <xbox>X-Box Live</xbox>
+      <aim>AIM</aim>
+      <yim>Yahoo IM</yim>
+      <steam>Steam</steam>
+      <gamerdna>GamerDNA</gamerdna>
+      <psn>Playstation ID</psn>
+      <facebook>Facebook</facebook>
+      <myspace>MySpace</myspace>
+      <twitter>Twitter</twitter>
+      <swtor>SWTOR Account</swtor>
+    </link_types>
+    <update_avatar>
+      <wrong_width>You uploaded an image that is the wrong dimensions.</wrong_width>
+      <wrong_height>You uploaded an image that is the wrong dimensions.</wrong_height>
+      <file_too_big>The file you uploaded is too large.</file_too_big>
+      <wrong_type>The file you uploaded was an invalid type.</wrong_type>
+    </update_avatar>
+    <gender>
+      <code_m>Male</code_m>
+      <code_f>Female</code_f>
+    </gender>
+	</profiles>
+	
+	<error>
+		<profiles>
+      <get_profile>
+        <not_found>
+          <title>Profile Not Found</title>
+          <body>The profile you're looking for does not exist.</body>
+        </not_found>
+      </get_profile>
+			<add_link>
+        <title>Add link error</title>
+        <body>There has been a database error encountered.%lb%lb%1</body>
+      </add_link>
+      <missing_postal_code>You must provide a valid postal code.</missing_postal_code>
+      <missing_country>You must select your country of residence.</missing_country>
+      <missing_gender>You must select your gender.</missing_gender>
+		</profiles>
+	</error>
+	
+	<authentication>
+		<profiles>
+			<title>User Profiles</title>
+      <view_profiles>
+        <denied>You do not have permission to view users' profiles.</denied>
+      </view_profiles>
+		</profiles>
+	</authentication>
+
+  <settings>
+    <profiles>
+      <title>User Profiles</title>
+      <avatar_height>
+        <title>Avatar Pixel Height</title>
+        <description>The height in pixels that user avatars must conform to.</description>
+      </avatar_height>
+      <avatar_width>
+        <title>Avatar Pixel Width</title>
+        <description>The width in pixels that user avatars must conform to.</description>
+      </avatar_width>
+      <avatar_size>
+        <title>Avatar Maximum File Size</title>
+        <description>The maximum file size in KILOBYTES that user avatars can be.</description>
+      </avatar_size>
+      <maximum_links>
+        <title>Maximum Social Links</title>
+        <description>The maximum number of social links users may add to their profile.</description>
+      </maximum_links>
+    </profiles>
+  </settings>
+
+  <preferences>
+    <account>
+      <profiles>
+        <title>Profile</title>
+        <disable_avatars>
+          <title>Disable Avatars</title>
+          <description>Do not show users' avatars wherever they are displayed.</description>
+        </disable_avatars>
+        <show_name>
+          <title>Show Full Name</title>
+          <description>Allow other users to see your full name in your profile.</description>
+        </show_name>
+        <show_location>
+          <title>Show Location</title>
+          <description>Allow other users to see your location in your profile.</description>
+        </show_location>
+        <show_gender>
+          <title>Show Gender</title>
+          <description>Allow other users to see your gender in your profile.</description>
+        </show_gender>
+        <simple_signatures>
+          <title>Simple Signatures</title>
+          <description>Strip all formatting (including images) from users' signatures wherever they are displayed.</description>
+        </simple_signatures>
+      </profiles>
+    </account>
+  </preferences>
+
+  <account>
+    <titles>
+      <staff>Staff</staff>
+    </titles>
+  </account>
+
+</phrases>

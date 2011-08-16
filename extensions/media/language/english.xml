@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<phrases>
+	
+	<media>
+		<title>Media</title>
+	</media>
+	
+	<error>
+		<media>
+			
+		</media>
+	</error>
+	
+	<authentication>
+		<media>
+			<title>Media</title>
+		</media>
+	</authentication>
+
+</phrases>

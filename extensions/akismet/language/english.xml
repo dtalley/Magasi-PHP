@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<phrases>
+	<akismet>
+		<title>Akismet</title>
+		
+	</akismet>
+	
+	<error>
+		<akismet>
+			
+		</akismet>
+	</error>
+	
+	<authentication>
+		<akismet>
+			<title>Akismet Permissions</title>
+		</akismet>
+	</authentication>
+
+  <settings>
+    <akismet>
+      <title>Akismet</title>
+
+      <api_key>
+        <title>Akismet API Key</title>
+        <description>The key used to access the Akismet spam blocking API.</description>
+      </api_key>
+      <domain>
+        <title>Site Domain</title>
+        <description>The domain used to register your Akismet account.</description>
+      </domain>
+      <site_name>
+        <title>Site Name</title>
+        <description>The site name registered with Akismet.</description>
+      </site_name>
+    </akismet>
+  </settings>
+
+</phrases>

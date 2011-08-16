@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<phrases>
+	<recaptcha>
+		<title>ReCAPTCHA</title>
+	</recaptcha>
+	
+	<error>
+		<recaptcha>
+			
+		</recaptcha>
+	</error>
+	
+	<authentication>
+		<recaptcha>
+			<title>ReCAPTCHA Permissions</title>
+		</recaptcha>
+	</authentication>
+
+  <settings>
+    <recaptcha>
+      <title>ReCAPTCHA</title>
+      <public_key>
+        <title>Public Key</title>
+        <description>The public key provided by ReCAPTCHA.</description>
+      </public_key>
+      <private_key>
+        <title>Private Key</title>
+        <description>The private key provided by ReCAPTCHA.</description>
+      </private_key>
+    </recaptcha>
+  </settings>
+
+</phrases>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<phrases>
+	<emailer>
+		<title>E-mailer</title>
+		<contact_site>
+      <success>
+        <title>Message Received!</title>
+        <body>Your message has been delivered to your requested target.</body>
+        <return>Click here to return.</return>
+      </success>
+      <website>Darth Hater Contact Form: Website Issue</website>
+      <editorial>Darth Hater Contact Form: Editorial</editorial>
+      <community>Darth Hater Contact Form: Community</community>
+      <advertising>Darth Hater Advertising Inquiry</advertising>
+      <media>Darth Hater Media Inquiry</media>
+      <privacy>Darth Hater Contact Form: Privacy Policy</privacy>
+    </contact_site>
+	</emailer>
+	
+	<error>
+		<emailer>
+			<contact_site>
+        <missing_name>You must enter a name.</missing_name>
+        <missing_email>You must enter an e-mail.</missing_email>
+        <invalid_email>You must enter a valid e-mail.</invalid_email>
+        <missing_body>You must enter a message.</missing_body>
+      </contact_site>
+		</emailer>
+	</error>
+	
+	<authentication>
+		<emailer>
+			<title>E-mailer</title>
+		</emailer>
+	</authentication>
+
+  <settings>
+    <emailer>
+      <title>E-mailer</title>
+
+      
+    </emailer>
+  </settings>
+
+</phrases>

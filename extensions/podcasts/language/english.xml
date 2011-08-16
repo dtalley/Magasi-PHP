@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<phrases>
+	
+	<podcasts>
+		<title>Podcasts</title>
+		
+		
+		
+		<edit_podcast>
+			<success>Blog post saved successfully.</success>
+		</edit_podcast>
+	</podcasts>
+	
+	<error>
+		<podcasts>
+                  <get_podcast>
+                    <not_found>
+                      <title>Podcast Not Found</title>
+                      <body>The podcast you're looking for either does not exist or was deleted.</body>
+                    </not_found>
+                  </get_podcast>
+			<missing_podcast_id>
+				<title>Missing Podcast ID</title>
+				<body>You did not provide a podcast ID.</body>
+			</missing_podcast_id>
+			<edit_podcast>
+				<title>Podcast Error</title>
+				<body>There was an error encountered while saving the podcast.%lb%lb%1</body>
+			</edit_podcast>
+		</podcasts>
+	</error>
+	
+	<authentication>
+		<podcasts>
+			<title>Podcast</title>				
+		</podcasts>
+	</authentication>
+
+</phrases>

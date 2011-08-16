@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<phrases>
+	
+	<infractions>
+		<title>Infractions</title>
+    <forum_post>
+      <moderator_action>%1 infracted %2 over a forum post.  %3 (+%4) Reason: %5</moderator_action>
+    </forum_post>
+    <punishment>
+      <moderator_action>%1 punished %2 with '%3'.  Reason: %4</moderator_action>
+      <automatic>This punishment was automatically applied because of your high infraction point total.</automatic>
+    </punishment>
+    <delete_user_infractions>
+      <moderator_action>%1 has deleted an infraction applied to %2 for '%3'</moderator_action>
+    </delete_user_infractions>
+    <reverse_user_infractions>
+      <moderator_action>%1 has reversed an infraction applied to %2 for '%3'</moderator_action>
+    </reverse_user_infractions>
+    <reinstate_user_infractions>
+      <moderator_action>%1 has reinstated an infraction applied to %2 for '%3'</moderator_action>
+    </reinstate_user_infractions>
+    <apply_user_infraction>
+      <email>
+        <subject>A disciplinary action has been taken upon your Darth Hater account.</subject>
+      </email>
+    </apply_user_infraction>
+    <toggle_user_infractions>
+      <success>
+        <title>Toggle Infractions</title>
+        <body>You have successfully changed the status of the target infraction(s).</body>
+      </success>
+    </toggle_user_infractions>
+    <delete_user_infractions>
+      <success>
+        <title>Delete Infractions</title>
+        <body>You have successfully deleted the target infraction(s).</body>
+      </success>
+    </delete_user_infractions>
+
+    <email>
+      <infractions>
+        <spam>
+          <body>You have received an infraction on your Darth Hater account for spamming, defined as a flood of posts, or inappropriately placed advertisement or solicitation of any kind.</body>
+        </spam>
+        <trolling>
+          <body>You have received an infraction on your Darth Hater account for trolling, defined as any post that is created with the perceived intent to elicit further unproductive responses.</body>
+        </trolling>
+        <flaming>
+          <body>You have received an infraction on your Darth Hater account for flaming, defined as any post that is insulting or disrespectful.</body>
+        </flaming>
+        <ranting>
+          <body>You have received an infraction on your Darth Hater account for ranting, defined as any post containing opinions that do not set a productive direction for discussion.  Criticism or complaints with no interest in intelligent discussion are not allowed.</body>
+        </ranting>
+        <dead-horse>
+          <body>You have received an infraction on your Darth Hater account for beating a dead horse, defined as revisiting a topic for which no more productive discussion can occur.</body>
+        </dead-horse>
+        <grammarformatting>
+          <body>You received an infraction against your Darth Hater account for the use of distracting grammar or formatting.  Beyond the content of a post, the formatting and style can discourage productive discussion.  All posts should be made in a reasonable approximation of proper English.  We recognize that many members of our community are not native English speakers, and we do not expect perfection, merely effort.  In addition, abusing the provided formatting options is not allowed.</body>
+        </grammarformatting>
+        <restricted-content>
+          <body>You have received an infraction on your Darth Hater account for posting restricted content, which may include pornographic, nude, or suggestive content, vulgar, derogatory, or offensive content, anything considered unlawful in the United States, or anything covered under a Non-Disclosure Agreement with any individual or organization.  In addition, discussion topics such as real world politics and religion, or sexuality are also restricted.</body>
+        </restricted-content>
+        <off-topic>
+          <body>You have received an infraction on your Darth Hater account for posting off-topic content.  We only allow certain users to post off-topic content in order to make the lives of our moderators easier.</body>
+        </off-topic>
+      </infractions>
+      <punishments>
+        <ban-24-hour>
+          <body>Your Darth Hater account has been suspended for a period of 24 hours.  During this time you will be unable to post on the Darth Hater forums, or comment on any articles.</body>
+        </ban-24-hour>
+        <ban-72-hour>
+          <body>Your Darth Hater account has been suspended for a period of 72 hours.  During this time you will be unable to post on the Darth Hater forums, or comment on any articles.</body>
+        </ban-72-hour>
+        <ban-1-week>
+          <body>Your Darth Hater account has been suspended for a period of 1 week.  During this time you will be unable to post on the Darth Hater forums, or comment on any articles.</body>
+        </ban-1-week>
+        <ban-1-month>
+          <body>Your Darth Hater account has been suspended for a period of 1 month.  During this time you will be unable to post on the Darth Hater forums, or comment on any articles.</body>
+        </ban-1-month>
+        <permanent-ban>
+          <body>Your Darth Hater account has been suspended indefinitely.  You are no longer allowed to post on the Darth Hater forums, or comment on any articles.  Permanent bans are reserved for those who have continually disregarded the community rules.</body>
+        </permanent-ban>
+      </punishments>
+    </email>
+	</infractions>
+	
+	<error>
+		<infractions>
+			<list_user_infractions>
+        <invalid_judge_name>The judge's user name you entered could not be found.</invalid_judge_name>
+        <invalid_victim_name>The victim's user name you entered could not be found.</invalid_victim_name>
+      </list_user_infractions>
+		</infractions>
+	</error>
+	
+	<authentication>
+		<infractions>
+			<title>Infractions</title>
+		</infractions>
+	</authentication>
+
+</phrases>

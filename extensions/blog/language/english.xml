@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<phrases>
+	
+	<blog>
+		<title>Blog</title>
+		<status>
+			<published>Published</published>
+			<draft>Draft</draft>
+			<in_progress>In Progress</in_progress>
+		</status>
+		
+		<blog_post_title>
+			<title>Post Title</title>
+			<description>The main title of the post.</description>
+		</blog_post_title>
+		<blog_post_blurb>
+			<title>Post Preface</title>
+			<description>A short preface to show on the main page, or you can insert the entire blog post here if it is fairly sort.</description>
+		</blog_post_blurb>
+		<blog_post_body>
+			<title>Post Body</title>
+			<description>The main body of the post that shows up on its dedicated page.</description>
+		</blog_post_body>
+		
+		<edit_post>
+			<success>Blog post saved successfully.</success>
+		</edit_post>
+		
+		<toggle_publish>
+			<success>Blog post status updated successfully.</success>
+		</toggle_publish>
+		
+		<comment>
+			<marked_as_spam>
+				<title>Spam Detected</title>
+				<body>Your comment has been flagged as spam.  If you feel this is an unjust accusation, please contact the site administrators immediately.</body>
+			</marked_as_spam>
+			<needs_approval>
+				<title>Awaiting Approval</title>
+				<body>This site requires administrator approval for all comments.  A notice has been dispatched indicating your comment's need for approval.</body>
+			</needs_approval>
+      <add_comment>
+        <needs_approval>
+          <title>Awaiting Approval</title>
+          <body>Your comment must be approved before it can be read by others.</body>
+        </needs_approval>
+        <marked_as_spam>
+          <title>Spam Detected!</title>
+          <body>Your comment has been flagged as spam.  Contact an administrator if you feel this is an arror.</body>
+        </marked_as_spam>
+      </add_comment>
+		</comment>
+
+    <edit_comment>
+      <success>
+        <title>Comment Edited</title>
+        <body>The comment has been edited successfully.</body>
+        <return>Click here to return to the comment.</return>
+      </success>
+    </edit_comment>
+    <add_comment>
+      <success>
+        <title>Comment Added</title>
+        <body>Your comment has been added successfully.</body>
+        <return>Click here to view your comment</return>
+      </success>
+    </add_comment>
+
+    <actions>
+      <edit_post>
+        <title>Edit Post</title>
+        <success>
+          <title>Post Edited Successfully</title>
+          <body>The post was edited and saved successfully.</body>
+        </success>
+      </edit_post>
+      <edit_comment>
+        <title>Edit Comment</title>
+        <success>
+          <title>Comment Edited Successfully</title>
+          <body>The comment was edited and saved successfully.</body>
+        </success>
+      </edit_comment>
+    </actions>
+	</blog>
+	
+	<error>
+		<blog>
+      <get_post>
+        <not_found>
+          <title>Article Not Found</title>
+          <body>The article you're looking for does not exist.</body>
+        </not_found>
+      </get_post>
+      <list_posts>
+        <not_found>
+          <title>No Articles Found</title>
+          <body>There are no articles matching your criteria.</body>
+        </not_found>
+        <author_not_found>
+          <title>Author Not Found</title>
+          <body>The author you're looking for does not exist.</body>
+        </author_not_found>
+        <category_not_found>
+          <title>Category Not Found</title>
+          <body>The category you're looking for does not exist.</body>
+        </category_not_found>
+        <tag_not_found>
+          <title>Tag Not Found</title>
+          <body>The tag you're looking for does not exist.</body>
+        </tag_not_found>
+      </list_posts>
+			<missing_post_id>
+				<title>Missing Post ID</title>
+				<body>You did not provide a blog post ID.</body>
+			</missing_post_id>
+			<edit_post>
+				<title>Blog Error</title>
+				<body>There was an error encountered while saving the blog post.%lb%lb%1</body>
+			</edit_post>
+		</blog>
+	</error>
+	
+	<authentication>
+		<blog>
+			<title>Blog</title>
+			<manage_blog>
+				<denied>You do not have sufficient priviledges to access the blog administration.</denied>
+				<title>Manage Blog</title>
+				<description>Determines if the user has sufficient priviledges to access the blog administration.</description>
+			</manage_blog>
+			<add_blog_posts>
+				<denied>You do not have sufficient priviledges to add a new blog post.</denied>
+				<title>Add Blog Post</title>
+				<description>Determines if the user can add a new blog post.</description>
+			</add_blog_posts>
+			<edit_own_blog_posts>
+				<denied>You do not have sufficient priviledges to edit your own blog posts.</denied>
+				<title>Edit Own Blog Posts</title>
+				<description>Determines if the user can edit their own blog posts.</description>
+			</edit_own_blog_posts>
+			<edit_own_published_blog_posts>
+				<denied>You do not have sufficient priviledges to edit your own blog posts after they have been published.</denied>
+				<title>Edit Own Published Blog Posts</title>
+				<description>Determines if the user can edit their own blog posts after they have been published.</description>
+			</edit_own_published_blog_posts>
+			<edit_blog_posts>
+				<denied>You do not have sufficient priviledges to edit blog posts.</denied>
+				<title>Edit Blog Posts</title>
+				<description>Determines if the user can edit blog posts.</description>
+			</edit_blog_posts>
+			<edit_published_blog_posts>
+				<denied>You do not have sufficient priviledges to edit blog posts after they have been published.</denied>
+				<title>Edit Published Blog Posts</title>
+				<description>Determines if the user can edit blog posts after they have been published.</description>
+			</edit_published_blog_posts>
+			<publish_blog_posts>
+				<denied>You do not have sufficient priviledges to publish blog posts.</denied>
+				<title>Publish Blog Posts</title>
+				<description>Determines if the user can publish blog posts.</description>
+			</publish_blog_posts>
+			<add_blog_category>
+				<denied>You do not have sufficient priviledges to add a blog category.</denied>
+				<title>Add Blog Category</title>
+				<description>Determines if the user can add a blog category.</description>
+			</add_blog_category>
+			<edit_blog_category>
+				<denied>You do not have sufficient priviledges to edit blog categories.</denied>
+				<title>Edit Blog Category</title>
+				<description>Determines if the user can edit blog categories.</description>
+			</edit_blog_category>
+      <view_unpublished_posts>
+        <denied>You come across a delicious looking post guarded by several hundred angry, festering jawas.  It's probably best if you walk away slowly.</denied>
+      </view_unpublished_posts>
+		</blog>
+	</authentication>
+
+  <preferences>
+    <account>
+      <blog>
+        <title>Blog</title>
+        <posts_per_page>
+          <title>News Posts Per Page</title>
+          <description>The number of news posts to show on the home page.</description>
+        </posts_per_page>
+      </blog>
+    </account>
+  </preferences>
+
+</phrases>

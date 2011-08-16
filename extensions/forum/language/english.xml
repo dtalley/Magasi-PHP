@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<phrases>
+	
+	<forum>
+		<title>Forums</title>
+    <success>Success!</success>
+    <statuses>
+      <category>Category</category>
+      <open>Open</open>
+    </statuses>
+    <add_forum>
+      <success>Forum was added successfully.</success>
+    </add_forum>
+    <edit_forum>
+      <success>Forum was edited successfully.</success>
+    </edit_forum>
+    <order_forum>
+      <success>Forum order was changed successfully.</success>
+    </order_forum>
+    <forum_post>
+      <add_reply>
+        <success>Your reply has been added to the thread.</success>
+      </add_reply>
+      <edit_post>
+        <success>The post was successfully modified.</success>
+        <moderator_action>%1 has edited %2's post in the topic '%3'</moderator_action>
+      </edit_post>
+      <delete_post>
+        <moderator_action>%1 has deleted %2's reply to the topic '%3' for '%4'</moderator_action>
+      </delete_post>
+      <move_post>
+        <moderator_action>%1 has moved a post by %2 from '%3' to '%4'</moderator_action>
+      </move_post>
+      <disable_post>
+        <moderator_action>%1 has disabled %2's post in '%3'</moderator_action>
+      </disable_post>
+      <enable_post>
+        <moderator_action>%1 has enabled %2's post in '%3'</moderator_action>
+      </enable_post>
+      <create_topic>
+        <success>You have successfully created a new topic.</success>
+      </create_topic>
+    </forum_post>
+    <forum_topic>
+      <delete_topic>
+        <moderator_action>%1 has deleted %2's topic '%3' for '%4'</moderator_action>
+      </delete_topic>
+      <move_topic>
+        <moderator_action>%1 has moved %2's topic '%3' from the forum '%4' to '%5'</moderator_action>
+      </move_topic>
+    </forum_topic>
+    <view_post>
+      <body>Click here to return to the topic.</body>
+    </view_post>
+    <edit_post>
+      <no_post_body>You cannot create an empty post.</no_post_body>
+      <no_topic_title>You did not provide a topic title.</no_topic_title>
+      <errors_in_post>
+        <number>There are %1 errors in your post.  The first is displayed below.%lb%lb</number>
+        <general>Some of the code in your post is improperly formatted.</general>
+        <line>  Specifically, look at the line where it says:%lb%lb%1</line>
+        <error_76>You have improperly nested tags.</error_76>
+        <error_77>One of your code tags is not closed properly.</error_77>
+      </errors_in_post>
+      <post_flood>You must wait a minute after creating a new post before you can create another.</post_flood>
+      <topic_flood>You must wait 5 minutes after creating a new topic before you can create another.</topic_flood>
+    </edit_post>
+    <mark_forums_read>
+      <success>
+        <title>Mark Forums Read</title>
+        <body>All topics in all forums have been marked as read.</body>
+      </success>
+    </mark_forums_read>
+    <mark_topics_read>
+      <success>
+        <title>Mark Topics Read</title>
+        <body>All topics in the selected forum have been marked as read.</body>
+      </success>
+    </mark_topics_read>
+    <return_to_previous>Return to the previous page.</return_to_previous>
+    <delete_posts>
+      <success>
+        <title>Posts Deleted</title>
+        <body>The selected post(s) have been deleted successfully.</body>
+      </success>
+    </delete_posts>
+    <flag_post>
+      <success>
+        <title>Post Flagged</title>
+        <body>The requested post has been flagged and forwarded to the moderators.</body>
+      </success>
+    </flag_post>
+	</forum>
+	
+	<error>
+		<forum>
+			
+		</forum>
+	</error>
+	
+	<authentication>
+		<forum>
+			<title>Forum</title>
+      <view_forum>
+        <denied>You do not have permission to view this forum.</denied>
+      </view_forum>
+		</forum>
+	</authentication>
+
+  <account>
+    <titles>
+      <moderator>Moderator</moderator>
+    </titles>
+  </account>
+
+  <preferences>
+    <account>
+      <forum>
+        <title>Forums</title>
+        <topics_per_page>
+          <title>Topics Per Page</title>
+          <description>The number of topics to display within a forum per page.</description>
+        </topics_per_page>
+        <posts_per_page>
+          <title>Posts Per Page</title>
+          <description>The number of posts to display within a topic per page.</description>
+        </posts_per_page>
+      </forum>
+    </account>
+  </preferences>
+
+</phrases>

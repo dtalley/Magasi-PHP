@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<phrases>
+	
+	<promotions>
+		<title>Promotions</title>
+    <enter_promotion>
+      <entry_added>
+        <title>Thanks for your entry!</title>
+        <body>Your entry was successfully added.  Check the promotion rules for the date and time that winners will be announced.</body>
+      </entry_added>
+      <return_to_main>Click here to return to the home page</return_to_main>
+      <incomplete_form>You did not fill in all of the fields.</incomplete_form>
+      <duplicate_entry>It appears you have already entered this promotion.  Duplicate entries are automatically disqualified.</duplicate_entry>
+    </enter_promotion>
+	</promotions>
+	
+	<error>
+		<promotions>
+			<enter_promotion>
+				<promotion_ended>
+					<title>This Promotion is Over</title>
+					<body>The ending date for this promotion has passed and no new entries are being accepted at this time.  Thanks for everyone who entered!</body>
+				</promotion_ended>
+			</enter_promotion>
+		</promotions>
+	</error>
+	
+	<authentication>
+		<promotions>
+			<title>Promotions</title>
+		</promotions>
+	</authentication>
+
+  <preferences>
+    <account>
+      <promotions>
+        <title>Promotions</title>
+      </promotions>
+    </account>
+  </preferences>
+
+</phrases>

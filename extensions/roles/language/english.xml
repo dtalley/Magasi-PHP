@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<phrases>
+	
+	<roles>
+		<title>User Roles</title>
+	</roles>
+	
+	<error>
+		<roles>
+			
+		</roles>
+	</error>
+	
+	<authentication>
+		<roles>
+			<title>User Roles</title>
+		</roles>
+	</authentication>
+
+  <account>
+    <titles>
+      <administrator>Administrator</administrator>
+      <member>Member</member>
+      <guest>Guest</guest>
+      <super-moderator>Super Moderator</super-moderator>
+      <contributor>Contributor</contributor>
+      <blog-administrator>Blog Administrator</blog-administrator>
+      <hater>Hater</hater>
+    </titles>
+  </account>
+
+</phrases>
